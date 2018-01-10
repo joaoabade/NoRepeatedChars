@@ -1,11 +1,9 @@
 ########################################
-#### AVOID REPEATED CHARS WORDS  	####
-####	       WITH PYTHON	   		####
+#### AVOID REPEATED CHARS WORDS     ####
+####	       WITH PYTHON	    ####
 ########################################
 
-
 # Constantes 
-
 
 ## Comienza la logica del programa
 
@@ -13,7 +11,6 @@ print ">>>>>>>>Empieza lectura de fichero>>>>>>>>>>>"
 
 infile = open('dict.txt', 'r')
 outfile = open('betterdict.txt','a')
-
 
 line = infile.readline()
 
@@ -40,7 +37,5 @@ while line != '':
 	## Nueva palabra 		
 	line = infile.readline()
 	 			
-
-	
 infile.close()
 outfile.close()
